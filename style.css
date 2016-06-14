@@ -1,0 +1,312 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* tout block */
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+body {
+line-height: 1;
+background: #2c3e50;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #333;
+font-size: 14px;
+line-height: 18px;
+}
+	
+/* page */
+
+#toue-page {
+position: relative;
+width: 1150px;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;
+border: 3px solid #888;
+background: #fff;
+/* curved border radius */
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+/*------------------------- header  ----------------------------------------------*/
+header {
+padding: 20px 0 0 0;
+width: 1150px;
+margin: 0 auto;
+}
+
+/*------------------------- header  ----------------------------------------------*/
+nav {
+width: 1150px;
+height: 50px;
+margin: 0 auto;
+background: #3498db; /*#295C00; couleur nav original*/
+margin-top:-4px;
+}
+/*connecion email et mdp*/
+#bar_connexion
+{
+width:450px;
+float:right;
+margin:15px 0px 0px 0px;
+}
+#place-connexion
+{
+width:450px;
+float:right;
+margin:15px 0px 0px 0px;
+}
+/* form recherche*/
+#myForm-recherche
+{
+float:right;
+margin:15px 0px 0px 0px;
+margin-right:15px;
+}
+.icone-mous
+{
+float:left;
+display:inline-block;/*pour appliquer les dimmention just 50px de hauter et de 125px largeur et metre le text au centre */
+}
+/* ---------------------------------------corp page--------------------------------------*/
+#corps {
+width: 1150px;
+margin: 0 auto;
+padding-top: 10px;
+background: #FFF url(images/colbg.png) repeat-y;
+overflow: hidden;
+}
+
+footer {
+width: 1150px;
+margin: 0 auto;
+clear: both;
+}
+
+/* basics */
+
+@font-face {
+	font-family: 'RieslingRegular';
+	src: url('riesling-webfont.eot');
+	src: local('RieslingRegular'), url('riesling-webfont.woff') format('woff'), url('riesling-webfont.ttf') format('truetype'), url('riesling-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-weight: bold;
+clear: both;
+color: #333;
+}
+
+a:link, a:visited {
+color:#205a7d;
+}
+
+a:hover, a:active {
+color: #333;
+}
+
+p {
+margin-bottom: 18px;
+}
+
+li {
+padding-left: 5px;
+}
+
+/* _--------------------------- nav ------------------------------------------------*/
+
+nav .menu {
+font-size: 16px;
+font-weight: bold;
+height:50px;
+}
+
+nav .menu ul {
+	margin:0;
+	padding:0;
+	line-height:50px;/*espace pour ul droite distance*/
+}
+
+nav .menu li {
+	height:50px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+}
+
+nav .menu ul li a {
+	font-family:arial;
+	text-decoration:none;
+	text-align:center;
+	height:50px;/*hauteur du desin et accueil exemple*/
+	width:125px;/*largeur du desin et accueil exemple*/
+	display:inline-block;/*pour appliquer les dimmention just 50px de hauter et de 125px largeur et metre le text au centre */
+	color:#fff;
+}
+/*-----------------------------marque-------------------------*/
+#enter button
+{
+	float:right;
+	margin-top:15px;
+	margin-right:15px;
+	width:150px;
+}
+#marque 
+{
+	width:1150px;
+}
+#marque p
+{
+	display:inline;
+	margin-left:50px;
+}
+#marque  form
+{
+float:right;
+margin-right:15px;
+}
+/*sous menu*/
+
+.menu ul ul /*icii la balise ul qui se trouve sur ul <li et >ul*/
+{
+	position:absolute;
+	visibility:hidden;
+	top:50px;
+}
+.menu ul li:hover ul/*les pistes cacher*/
+{
+	visibility:visible;
+	background-color:#3498db;/*pareille sur la couleur du nav*/
+	
+}
+.menu  .past li:hover 
+{
+	visibility:;
+	background-color:#95a5a6;
+}
+.menu li:hover 
+{
+	visibility:;
+	background-color:#7f8c8d;
+}
+.menu .menu-droit li{
+	float:right;
+	
+}
+
+nav .menu a:hover {
+text-decoration: underline;
+}
+/*----------------------------------  footer --------------------------*/
+#section-footer {
+	background-color:#3498db;
+color: #FFF;
+font-size: 90%;
+padding: 18px 0;
+overflow: hidden;
+/* curved border radius */
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-bottomleft: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-webkit-border-bottom-right-radius: 8px;
+}
+
+.block {
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+width: 190px;
+}
+
+footer ul {
+list-style: none;
+
+}
+
+footer a:link, footer a:visited {
+color: #fff;
+}
+
+footer a:hover { 
+text-decoration: underline; 
+}
+
+footer p {
+	margin-left:425px;
+color: #faf0e6;
+font-size:16px;
+margin-top:15px;
+}
+
+/*-------------------- block footer ----------------------*/
+
+.block2{
+font-size: 16px;
+font-weight: bold;
+height:50px;
+padding-left:250px;
+}
+
+.block2 ul {
+	margin:0;
+	padding:0;
+	line-height:50px;/*espace pour ul droite distance*/
+}
+
+.block2 li {
+	
+	height:50px;
+	margin:0;
+	padding:px;
+	list-style:none;
+	float:left;
+	position:relative;
+}
+
+.block2 ul li a {
+	font-family:arial;
+	text-decoration:none;
+	text-align:center;
+	height:50px;/*hauteur du desin et accueil exemple*/
+	width:125px;/*largeur du desin et accueil exemple*/
+	display:inline-block;/*pour appliquer les dimmention just 50px de hauter et de 125px largeur et metre le text au centre */
+	color:#fff;
+}
+
+.block2 li:hover 
+{
+	visibility:;
+	background-color:#7f8c8d;
+}
+#colone-droite1
+{
+width:125px;
+height:50px;
+margin-left:500px
+}
+
+#colone-droite1  ul {
+	margin:0;
+	padding:0;
+	line-height:1px;/*espace pour ul droite distance*/
+	
+}
+
+#colone-droite1  li {
+	list-style:none;
+	float:left;
+	display:inline-block;
+}
+
+#colone-droite1  ul li a {
+	text-decoration:none;
+	display:inline-block;/*pour appliquer les dimmention just 50px de hauter et de 125px largeur et metre le text au centre */
+}
