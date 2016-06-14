@@ -1,0 +1,59 @@
+
+
+/****** ----- id milieu------*****/
+#milieu
+{
+float:left;
+width:900px;
+margin-top:15px;
+margin-left:25px;
+display:inline-block;
+}
+#img p
+{
+margin-bottom:25px;
+}
+/* ------ id=colone-droite---------*/
+
+#colone-droite 
+{
+width:125px;
+height:400px;
+float:right;
+margin:15px;
+padding:25px;
+background-color:#333333;
+}
+
+#colone-droite  h3
+{
+	color:white;
+	margin-bottom:10px;
+	float:right;
+	padding-right:8px;
+}
+
+#colone-droite  ul {
+	margin:0;
+	padding:0;
+	line-height:1px;/*espace pour ul droite distance*/
+	
+}
+
+#colone-droite  li {
+	list-style:none;
+	float:left;
+	display:inline-block;
+}
+
+#colone-droite  ul li a {
+	text-decoration:none;
+	display:inline-block;/*pour appliquer les dimmention just 50px de hauter et de 125px largeur et metre le text au centre */
+}
+
+/*image tuto 1*/
+#tuto1
+{
+	margin-left:25px;
+}
+
